@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ APPLICATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="categoryContainer" class="categoryContainer">
+        <h1>Time to Quiz Are You Ready ?</h1>
+        <h3>Tryck på önskade Category knappen</h3>
+
+        <button onclick="matteFunc()">Världens Länder</button>
+        <button onclick="geoFunc()">Quiz om Sverige</button>
+    </div>
+
+    <div id="quizContainer" class="app">
+        <img src="./QUIZ.jpg" alt="Qizzz" class="center">
+        <h1>Time to Quiz Are You Ready ?</h1>
+        <div class="quiz">
+            <h2 id="question">Qustion goes here</h2>
+            <div id="aswer-buttons">
+                <button class="btn">Answer1</button>
+                <button class="btn">Answer2</button>
+                <button class="btn">Answer3</button>
+                <button class="btn">Answer4</button>
+                <button class="btn">Answer5</button>
+            </div>
+            <button id="next-btn">NEXT question</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

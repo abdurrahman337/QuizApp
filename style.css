@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:brown;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+.app{
+    background:#fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.app h1{
+    font-size: 25px;
+    color: chartreuse;
+    font-weight: 600;
+    border-bottom: 1px solid red;
+    padding-bottom: 30px;
+}
+.quiz{
+    padding:20px 0 ;
+}
+
+#quizContainer{
+    display: none;
+}
+
+.quiz h2{
+    font-size: 18px;
+    color:blueviolet
+
+}
+
+.btn{
+    background: yellowgreen;
+    color: orangered;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color:darkviolet
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background: yellowgreen;
+    color:chocolate;
+    font-weight: 500;
+    width: 150px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    display: none;  /*button visas inte*/
+
+}
+.correct{
+    background: green;
+}
+.incorrect{
+    background: red;
+}
+
+.categoryContainer{
+    background:#fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+
+}
+button{
+    background: rgb(159, 194, 89);
+    color: orangered;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.categoryContainer h1{
+  /* background-color: rgba(219, 202, 219, 0.8);*/
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 10px solid rgb(20, 17, 17);
+    padding-bottom: 30px;
+    
+}
+.categoryContainer h3{
+      margin-top: 20px;
+      margin-bottom: 10px;
+      
+  }
+
+.categoryContainer{
+    background-color: rgba(255, 255, 255, 0.574);
+    box-shadow: 
+    0 0 0 10px hsl(0, 0%, 50%),
+    0 0 0 15px hsl(0, 0%, 60%),
+    0 0 0 20px hsl(0, 0%, 70%),
+    0 0 0 25px hsl(0, 0%, 80%),
+    0 0 0 30px hsl(0, 0%, 90%);
+    
+
+
+}
+
